@@ -294,9 +294,9 @@ import { Carousel, Navigation, Pagination, Slide } from "vue3-carousel";
 import "vue3-carousel/dist/carousel.css";
 
 const banner = [
-    "/assets/banner1.png",
-    "/assets/banner2.png",
-    "/assets/banner3.png",
+    "/assets/banner1.jpg",
+    "/assets/banner2.jpg",
+    "/assets/banner3.jpg",
 ];
 
 const settings = ref({
