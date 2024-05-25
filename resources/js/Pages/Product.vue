@@ -97,10 +97,10 @@
                                                 >
                                                     {{
                                                         new Intl.NumberFormat(
-                                                            "id-ID",
+                                                            "ar-MA",
                                                             {
                                                                 style: "currency",
-                                                                currency: "IDR",
+                                                                currency: "MAD",
                                                                 minimumFractionDigits: 0,
                                                             }
                                                         ).format(value.price)
@@ -163,9 +163,9 @@
                                     </div>
                                     <h1 class="my-2 font-semibold text-xl">
                                         {{
-                                            new Intl.NumberFormat("id-ID", {
+                                            new Intl.NumberFormat("ar-MA", {
                                                 style: "currency",
-                                                currency: "IDR",
+                                                currency: "MAD",
                                                 minimumFractionDigits: 0,
                                             }).format(value.price)
                                         }}

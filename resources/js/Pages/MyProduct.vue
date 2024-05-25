@@ -113,9 +113,9 @@ const submit = () => {
 };
 
 const formatRupiah = (number) => {
-    const formatter = new Intl.NumberFormat("id-ID", {
+    const formatter = new Intl.NumberFormat("ar-MA", {
         style: "currency",
-        currency: "IDR",
+        currency: "MAD",
         minimumFractionDigits: 0,
         maximumFractionDigits: 0,
     });
@@ -129,7 +129,7 @@ onMounted(() => {
 </script>
 
 <template>
-    <Head title="Produk" />
+    <Head title="Produits" />
 
     <AuthenticatedLayout>
         <template #header>
@@ -150,7 +150,7 @@ onMounted(() => {
                         d="M19 12H5M12 19l-7-7 7-7"
                     ></path>
                 </svg>
-                Produk
+                Produits
             </h1>
         </template>
         <div class="my-12 relative">
@@ -167,23 +167,23 @@ onMounted(() => {
                         "
                         class="font-semibold py-3 px-24 bg-primary hover:bg-primary-hover hover:shadow-xl active:bg-primary-active rounded-full text-white focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition ease-in-out duration-150"
                     >
-                        Produk Baru
+                       Nouveau produit
                     </button>
                 </div>
                 <div class="mt-6">
-                    <p class="font-medium">Semua Produk</p>
+                    <p class="font-medium">Tous les produits</p>
                     <div class="grid grid-cols-12 mt-5">
                         <div class="px-5 py-2.5 col-span-4 text-sm font-medium">
-                            Nama
+                            Nom
                         </div>
                         <div class="px-5 py-2.5 col-span-2 text-sm font-medium">
-                            Harga
+                            Prix
                         </div>
                         <div class="px-5 py-2.5 col-span-2 text-sm font-medium">
-                            Tipe
+                            Type
                         </div>
                         <div class="px-5 py-2.5 col-span-2 text-sm font-medium">
-                            Ukuran
+                            Taille
                         </div>
                     </div>
                     <div v-for="(produk, index) in data.products" :key="index">
@@ -261,15 +261,15 @@ onMounted(() => {
                 class="p-12 rounded-[20px] bg-gradient-to-t from-[#F9D381] to-primary"
             >
                 <p class="text-white text-center text-[28px] font-semibold">
-                    Sekarang anda belum memiliki produk ayo tambahkan produkmu
-                    sekarang
+                   Maintenant que vous n'avez plus de produit, ajoutons votre produit
+                    Maintenant
                 </p>
                 <div class="mt-12">
                     <button
                         @click="(showForm = !showForm), clearForm()"
                         class="block mx-auto py-3 px-24 font-semibold bg-white text-primary hover:text-white hover:bg-primary active:bg-primary-active text-center rounded-full focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition ease-in-out duration-150"
                     >
-                        Produk Baru
+                        Nouveau produit
                     </button>
                 </div>
             </div>
@@ -280,7 +280,7 @@ onMounted(() => {
             >
                 <form @submit.prevent="submit">
                     <div>
-                        <InputLabel isRequired="true" for="name" value="Nama" />
+                        <InputLabel isRequired="true" for="name" value="Nom" />
 
                         <TextInput
                             placeholder=""
@@ -298,7 +298,7 @@ onMounted(() => {
                         <InputLabel
                             isRequired="true"
                             for="category"
-                            value="Kategori"
+                            value="catégorie"
                         />
 
                         <select
@@ -308,7 +308,7 @@ onMounted(() => {
                             autocomplete="off"
                         >
                             <option value="" disabled selected>
-                                Pilih Kategori
+                               Choisir une catégorie
                             </option>
                             <option
                                 v-for="(categories, index) in data.categories"
@@ -348,7 +348,7 @@ onMounted(() => {
                         <InputLabel
                             isRequired="true"
                             for="description"
-                            value="Deskripsi"
+                            value="Description"
                         />
 
                         <textarea
@@ -371,7 +371,7 @@ onMounted(() => {
                         <InputLabel
                             isRequired="true"
                             for="price"
-                            value="Harga"
+                            value="Prix"
                         />
 
                         <TextInput
@@ -390,7 +390,7 @@ onMounted(() => {
                         <InputLabel
                             isRequired="true"
                             for="product_file"
-                            value="File Produk"
+                            value="File produit"
                         />
 
                         <div
@@ -421,7 +421,7 @@ onMounted(() => {
                                         fill="black"
                                     />
                                 </svg>
-                                File Produk
+                               Fichiers produits
                             </span>
                             <span
                                 v-else
@@ -467,7 +467,7 @@ onMounted(() => {
                                     />
                                 </svg>
 
-                                Pilih Gambar
+                                Sélectionnez une image
                             </span>
                             <span
                                 v-else
@@ -497,7 +497,7 @@ onMounted(() => {
                         :class="{ 'bg-primary-hover': form.processing }"
                         :disabled="form.processing"
                     >
-                        {{ formTambah ? "Tambah Produk" : "Edit Produk" }}
+                        {{ formTambah ? "Ajouter un produit" : "Edit produit" }}
                     </button>
                 </form>
             </div>

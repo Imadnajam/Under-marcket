@@ -50,9 +50,9 @@
                                 </p>
                                 <p class="font-semibold text-xl">
                                     {{
-                                        new Intl.NumberFormat("id-ID", {
+                                        new Intl.NumberFormat("fr-MA", {
                                             style: "currency",
-                                            currency: "IDR",
+                                            currency: "MAD",
                                             minimumFractionDigits: 0,
                                         }).format(product.product.price)
                                     }}
@@ -81,9 +81,9 @@
                             <p>Total</p>
                             <p class="text-primary">
                                 {{
-                                    new Intl.NumberFormat("id-ID", {
+                                    new Intl.NumberFormat("fr-MA", {
                                         style: "currency",
-                                        currency: "IDR",
+                                        currency: "MAD",
                                         minimumFractionDigits: 0,
                                     }).format(total)
                                 }}

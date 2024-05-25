@@ -10,13 +10,11 @@
             >
                 <div class="md:col-span-4 lg:col-span-3">
                     <p class="my-6 font-semibold text-xl">
-                        Jangan sia-siakan kesempatanmu untuk tumbuh dan sukses!
-                        Berlanggananlah sekarang dan dapatkan manfaatnya.
+                       La Plateforme Ultime pour Vendre Vos Produits Numériques
                     </p>
 
                     <p class="text-sm font-medium text-[#555] mt-12">
-                        &#169; {{ new Date().getFullYear() }} Diger. Hak cipta
-                        dilindungi Undang-Undang.
+                        &#169; {{ new Date().getFullYear() }} Under. NJ
                     </p>
                 </div>
                 <div

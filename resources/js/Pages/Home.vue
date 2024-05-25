@@ -15,18 +15,18 @@
                         <h1
                             class="font-semibold text-4xl xl:text-5xl leading-[3rem] xl:leading-[3.875rem]"
                         >
-                            Rasakan masa depan digital dengan berinovasi.
+                           Découvrez l’avenir numérique en innovant.
                         </h1>
                         <p class="mb-10 mt-8 md:mb-12 md:mt-14">
-                            Dengan Diger, siapa pun bisa mendapatkan rupiah
-                            pertama secara online. Mulailah dengan apa yang anda
-                            ketahui, lihat apa yang berhasil, dan dapatkan
-                            bayaran. Sesimple itu.
+                           Avec Under, tout le monde peut gagner des roupies
+                            d'abord en ligne. Commencez par ce que vous êtes
+                            savoir, voir ce qui fonctionne et l'obtenir
+                            paiement. C'est si simple.
                         </p>
                         <Link
                             :href="route('dashboard')"
                             class="bg-primary text-white py-3 px-16 rounded-full font-semibold hover:shadow-lg"
-                            >Mulai Jualan</Link
+                            >Commencer à vendre</Link
                         >
                     </div>
                     <div class="col-span-2">
@@ -43,7 +43,7 @@
                 <section class="my-[3rem] md:my-[6.25rem]">
                     <div class="text-end">
                         <h1 class="font-semibold text-[2rem] mb-5">
-                            Jual apa saja
+                            Vendre n'importe quoi
                         </h1>
                     </div>
                     <div class="grid md:grid-cols-2 gap-8">
@@ -56,9 +56,9 @@
                         </div>
                         <div class="md:row-span-1">
                             <p class="mb-2 md:mb-5">
-                                Software. Pelajaran video. Album Lagu. Apa pun!
-                                Diger dibuat untuk membantu Anda bereksperimen
-                                dengan semua jenis ide dan format.
+                                Logiciel. Leçon vidéo. Albums de chansons. Peu importe!
+                                Diger a été créé pour vous aider à expérimenter
+                                avec toutes sortes d'idées et de formats.
                             </p>
                             <div class="ms-4">
                                 <div
@@ -71,7 +71,7 @@
                                 </div>
                             </div>
                             <p class="mb-2 md:mb-5">
-                                Ini serius, Anda dapat menjual apa saja!
+                               C'est sérieux, on peut tout vendre !
                             </p>
                         </div>
                     </div>
@@ -84,10 +84,10 @@
                         <h1
                             class="font-semibold text-2xl xl:text-[2rem] mx-auto mb-4"
                         >
-                            Mencari inspirasi tentang apa yang bisa Anda jual?
+                           Vous cherchez de l’inspiration sur ce que vous pouvez vendre ?
                         </h1>
                         <p class="font-medium text-xl xl:text-2xl">
-                            Temukan produk dan kreator terlaris di Diger
+                            Découvrez les produits et créateurs les plus vendus sur Diger
                         </p>
                     </div>
                     <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
@@ -144,14 +144,14 @@
                         <h1
                             class="text-center text-white text-2xl xl:text-[2rem] font-semibold md:w-4/5 mx-auto"
                         >
-                            Bagikan produk digital Anda. <br />
-                            Seseorang di luar sana membutuhkannya.
+                           Partagez vos produits numériques. <br />
+                           Quelqu’un en a besoin.
                         </h1>
                         <div class="mt-4 text-center">
                             <Link
                                 :href="route('dashboard')"
                                 class="block w-max mx-auto bg-white text-primary py-2.5 px-14 border border-primary rounded-full font-semibold hover:shadow-lg"
-                                >Mulai Jualan</Link
+                                >Commencer à vendre</Link
                             >
                         </div>
                     </div>
@@ -168,12 +168,12 @@ import CustomerLayout from "@/Layouts/CustomerLayout.vue";
 import { ref } from "vue";
 
 const advantages = ref([
-    "Jual daftar Top 10 Anda",
-    "Jual kiat kripto Anda",
-    "Jual paket fraktal Anda",
-    "Jual buku masak keto Anda",
-    "Jual adegan C4D Anda",
-    "Jual emoji baru Anda",
+    "Vendez votre liste Top 10",
+    "Vendez vos astuces crypto",
+    "Vendez vos packages fractals",
+    "Vendez votre livre de recettes céto",
+    "Vendez vos scènes C4D",
+    "Vendez votre nouvel emoji",
 ]);
 const { props } = usePage();
 const category = ref(props.categories);

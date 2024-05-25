@@ -33,9 +33,9 @@
                         <div class="flex justify-between items-center">
                             <p class="text-3xl font-semibold">
                                 {{
-                                    new Intl.NumberFormat("id-ID", {
+                                    new Intl.NumberFormat("fr-MA", {
                                         style: "currency",
-                                        currency: "IDR",
+                                        currency: "MAD",
                                         minimumFractionDigits: 0,
                                     }).format(product.price)
                                 }}

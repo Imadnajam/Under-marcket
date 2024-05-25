@@ -10,13 +10,13 @@
                 >
                     <p class="text-[2rem] font-bold">Pricing</p>
                     <h1 class="text-5xl font-bold text-primary lg:my-5 my-4">
-                        10% rata
+                        10%  Solde
                     </h1>
                     <p class="font-medium">
-                        Kami ingin Anda menjalani kehidupan yang lebih baik,
-                        tidak fokus pada biaya. Itu sebabnya kami tidak memiliki
-                        biaya bulanan dan hanya mengambil potongan kecil dari
-                        setiap penjualan.
+                       Nous voulons que vous viviez une vie meilleure,
+                        ne vous concentrez pas sur les coûts. C'est pourquoi nous n'avons pas
+                        frais mensuels et ne prélèvent qu'une petite déduction sur
+                        chaque vente.
                     </p>
                 </section>
                 <!-- end banner -->
@@ -24,11 +24,11 @@
                 <!-- faq -->
                 <div class="mb-[1.62rem]">
                     <h1 class="lg:text-[2rem] text-2xl font-bold mb-5">
-                        Pertanyaan yang sering diajukan
+                        Questions fréquemment posées
                     </h1>
                     <p class="font-medium">
-                        Tidak melihat pertanyaan Anda? Kunjungi pusat bantuan
-                        kami.
+                        Vous ne voyez pas votre question ? Visitez le centre d'aide
+                        nous.
                     </p>
                 </div>
                 <div class="mx-10 md:mx-24">
@@ -63,14 +63,14 @@
                         <h1
                             class="text-center text-white text-2xl xl:text-[2rem] font-semibold xl:w-4/5 mx-auto"
                         >
-                            Bagikan produk digital Anda. <br />
-                            Seseorang di luar sana membutuhkannya.
+                           Partagez vos produits numériques. <br />
+                            Quelqu’un en a besoin.
                         </h1>
                         <div class="mt-4 text-center">
                             <Link
                                 :href="route('dashboard')"
                                 class="block w-max mx-auto bg-white text-primary py-2.5 px-14 border border-primary rounded-full font-semibold hover:shadow-lg"
-                                >Mulai Jualan</Link
+                                >Commencer à vendre</Link
                             >
                         </div>
                     </div>
@@ -90,20 +90,20 @@ const collapsed = ref({});
 
 const faq = ref([
     {
-        question: "Apa yang Bisa Saya Jual di Diger?",
-        answer: 'Produk Digital, Produk Fisik, dan Keanggotaan - hampir semuanya! Pencipta di hampir setiap industri menggunakan (dan cinta) Diger, mulai dari seniman digital, penulis, musisi, dan tipe kreatif lainnya hingga wirausahawan yang berpikiran bisnis dan ahli teknologi seperti pencipta SaaS kami. Pertanyaan yang lebih baik adalah, "apa yang tidak bisa Anda jual di Diger?"',
+        question: "Que puis-je vendre sur Under ?",
+        answer: "Contrairement à d’autres plateformes, Under ne vous facture pas de frais mensuels. Au lieu de cela, nos frais sont déduits sous la forme d'un petit pourcentage de chaque vente, nous ne gagnons donc de l'argent que lorsque vous le faites.",
     },
     {
-        question: "Bagaimana Saya Dibayar?",
-        answer: "Tujuan Diger adalah membantu kreator mencari nafkah dengan melakukan apa yang mereka sukai, jadi kami membuatnya sesederhana mungkin untuk mendapatkan bayaran. Cara kami membayar kreator, baik melalui setoran langsung.",
+        question: "Comment puis-je être payé ?",
+        answer: "L'objectif de Under est d'aider les créateurs à gagner leur vie en faisant ce qu'ils aiment, c'est pourquoi nous simplifions au maximum le paiement. La façon dont nous rémunérons les créateurs, soit par dépôt direct.",
     },
     {
-        question: "Apa Biayanya?",
-        answer: "Tidak seperti platform lain, Diger tidak membebankan biaya bulanan kepada Anda. Sebaliknya, biaya kami dipotong sebagai persentase kecil dari setiap penjualan, jadi kami hanya menghasilkan uang saat Anda melakukannya.",
+        question: "Quels sont les coûts ?",
+        answer: "Contrairement à d’autres plateformes, Under ne vous facture pas de frais mensuels. Au lieu de cela, nos frais sont déduits sous la forme d'un petit pourcentage de chaque vente, nous ne gagnons donc de l'argent que lorsque vous le faites.",
     },
     {
-        question: "Bisakah Saya Menggunakan Diger untuk Keanggotaan?",
-        answer: "Ya! Baik itu untuk podcast, kursus online, atau langganan SaaS, Diger memudahkan pengelolaan keanggotaan.",
+        question: "Puis-je utiliser Under pour devenir membre ?",
+        answer: "Oui! Qu'il s'agisse de podcasts, de cours en ligne ou d'abonnements SaaS, Under facilite la gestion des adhésions.",
     },
 ]);
 
