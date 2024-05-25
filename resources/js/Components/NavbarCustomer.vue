@@ -113,7 +113,7 @@
                         <Link
                             :href="route('register')"
                             class="text-sm font-semibold text-center bg-primary text-white py-1 px-6 rounded-full"
-                            >Mulai Jualan</Link
+                            >Commencer à vendre</Link
                         >
                     </div>
                 </div>

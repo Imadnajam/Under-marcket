@@ -1,9 +1,9 @@
 <template>
-    <Head title="Pustaka" />
+    <Head title="Les références" />
 
     <AuthenticatedLayout>
         <template #header>
-            <h1 class="text-[2rem] font-bold">Pustaka</h1>
+            <h1 class="text-[2rem] font-bold">Les références</h1>
         </template>
         <div class="py-12">
             <div class="grid grid-cols-3 gap-5">

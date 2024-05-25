@@ -150,7 +150,7 @@
                 <!-- innovative product -->
                 <section id="innovative">
                     <h1 class="text-2xl xl:text-3xl font-bold mb-5">
-                        Produk Inovatif
+                        Produits innovants
                     </h1>
                     <div
                         class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4"
@@ -207,7 +207,7 @@
                         <Link
                             :href="route('allProduct')"
                             class="block mx-auto w-max text-primary py-2.5 px-14 border border-primary rounded-full font-semibold hover:bg-primary hover:text-white hover:shadow-lg"
-                            >Muat Lebih Banyak</Link
+                            >Charger plus</Link
                         >
                     </div>
                 </section>
@@ -216,7 +216,7 @@
                 <!-- product by category -->
                 <section id="category">
                     <h1 class="text-2xl xl:text-3xl font-bold mb-5">
-                        Produk Berdasarkan Kategori
+                        Produits par catégorie
                     </h1>
                     <div class="grid grid-cols-1 lg:grid-cols-2 gap-5">
                         <div
@@ -273,8 +273,7 @@
                 <section class="mt-10 mb-16">
                     <Slogan>
                         <template #content>
-                            Bersama Digi, siapa pun dapat memperoleh uang secara
-                            online.
+                            Avec Digi, n'importe qui peut gagner de l'argent en ligne.
                         </template>
                     </Slogan>
                 </section>

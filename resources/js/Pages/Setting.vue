@@ -1,9 +1,9 @@
 <template>
-    <Head title="Pengaturan" />
+    <Head title="Arrangement" />
 
     <AuthenticatedLayout>
         <template #header>
-            <h1 class="text-[2rem] font-bold">Pengaturan</h1>
+            <h1 class="text-[2rem] font-bold">Arrangement</h1>
         </template>
         <div class="my-12">
             <form @submit.prevent="submit" class="mx-auto">
@@ -62,7 +62,7 @@
                     :class="{ 'opacity-25': form.processing }"
                     :disabled="form.processing"
                 >
-                    Ubah Profil
+                    Change de profil
                 </button>
                 <button
                     class="w-full mt-7 bg-danger hover:bg-danger-hover hover:shadow-xl focus:bg-danger-active active:bg-danger-active inline-flex items-center justify-center py-3 border border-transparent rounded-full font-semibold text-white transition ease-in-out duration-150"
@@ -70,7 +70,7 @@
                     :disabled="form.processing"
                     @click="deleteAccount"
                 >
-                    Hapus Akun
+                    Supprimer le compte
                 </button>
             </form>
         </div>
@@ -91,6 +91,6 @@ const form = useForm({
 });
 
 const deleteAccount = () => {
-    console.log("Berhasil Menghapus Account");
+    console.log("Compte supprimé avec succès");
 };
 </script>
