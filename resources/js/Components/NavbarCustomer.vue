@@ -145,7 +145,7 @@ const props = defineProps({
 const links = ref([
     { route: "home", label: "Home" },
     { route: "pricing", label: "Pricing" },
-    { route: "discover", label: "Discover" },
+    { route: "discover", label: "Découvrir" },
 ]);
 
 const currentUrl = window.location.pathname;

@@ -60,7 +60,7 @@ const { props } = usePage();
 const categories = ref(props.categories);
 
 const destroy = (id) => {
-    if (confirm("Hapus dari Category?")) {
+    if (confirm("Supprimer de la catégorie?")) {
         Inertia.delete(route("destroy.categories", id));
     }
 };

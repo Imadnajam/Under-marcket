@@ -29,14 +29,14 @@ const submit = () => {
                 <h1
                     class="text-[28px] md:text-[32px] leading-normal font-medium text-center mb-10"
                 >
-                    Buat akunmu
+                    Créez votre compte
                 </h1>
                 <form @submit.prevent="submit">
                     <div>
                         <InputLabel isRequired="true" for="name" value="Name" />
 
                         <TextInput
-                            placeholder="Masukkan Nama Lengkapmu"
+                            placeholder="Entrez votre nom complet"
                             id="name"
                             type="text"
                             class="mt-1 block w-full"
@@ -57,7 +57,7 @@ const submit = () => {
                         />
 
                         <TextInput
-                            placeholder="Masukkan Email"
+                            placeholder=" Email"
                             id="email"
                             type="email"
                             class="mt-1 block w-full"
@@ -77,7 +77,7 @@ const submit = () => {
                         />
 
                         <TextInput
-                            placeholder="Masukkan Password"
+                            placeholder="Password"
                             id="password"
                             type="password"
                             class="mt-1 block w-full"
@@ -93,23 +93,23 @@ const submit = () => {
                     </div>
 
                     <p class="mt-4 text-xs">
-                        Anda menyetujui
+                        Tu es d'accord
                         <Link
                             :href="route('terms')"
                             class="text-primary font-medium hover:underline"
-                            >Ketentuan Penggunaan</Link
+                            >Conditions d'utilisation</Link
                         >
-                        serta
+                        NJ
                         <Link
                             :href="route('privacy')"
                             class="text-primary font-medium hover:underline"
-                            >Kebijakan Privasi</Link
+                            >politique de confidentialité</Link
                         >
                         dan
                         <Link
                             :href="route('pricing')"
                             class="text-primary font-medium hover:underline"
-                            >Biaya kami</Link
+                            >Nos honoraires</Link
                         >
                     </p>
                     <button
@@ -117,14 +117,14 @@ const submit = () => {
                         :class="{ 'opacity-25': form.processing }"
                         :disabled="form.processing"
                     >
-                        Buat Akun
+                        Créer un compte
                     </button>
                     <p class="mt-3 text-sm">
-                        Sudah memiliki akun?
+                       Vous avez déjà un compte?
                         <Link
                             href="/login"
                             class="text-primary font-medium hover:underline"
-                            >Masuk</Link
+                            >Entrer</Link
                         >
                     </p>
                 </form>
@@ -134,8 +134,8 @@ const submit = () => {
                     <img src="/assets/auth-banner.png" alt="" />
                     <div class="content text-center text-white font-medium">
                         <h1 class="text-3xl px-4 mb-8">
-                            Menemukan Produk Digital Terbaik untuk Masa Depan
-                            Anda
+                           Trouver les meilleurs produits numériques pour l'avenir
+                            Toi
                         </h1>
                         <!-- <p>
                             Bergabunglah dengan lebih dari 147.388 kreator yang

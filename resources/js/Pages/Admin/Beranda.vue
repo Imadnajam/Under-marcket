@@ -1,12 +1,12 @@
 <template>
-    <Head title="Beranda" />
+    <Head title="Page d'accueil" />
 
     <AdminLayout>
         <template #header>
-            <h1 class="text-[2rem] font-bold">Beranda</h1>
+            <h1 class="text-[2rem] font-bold">Page d'accueil</h1>
         </template>
         <div class="py-12">
-            <h1 class="text-center">Selamat Datang di Diger!</h1>
+            <h1 class="text-center">Bienvenue chez Under!</h1>
         </div>
     </AdminLayout>
 </template>

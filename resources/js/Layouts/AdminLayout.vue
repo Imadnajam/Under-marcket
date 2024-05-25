@@ -7,7 +7,7 @@ const links = ref([
     {
         route: "admin.beranda",
         image: "/assets/icon/home.svg",
-        label: "Beranda",
+        label: "Page d'accueil",
     },
     {
         route: "admin.users",

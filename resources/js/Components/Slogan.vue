@@ -9,7 +9,7 @@
             <Link
                 :href="route('dashboard')"
                 class="block cursor-pointer w-max mx-auto bg-white text-primary py-2.5 px-14 border border-primary rounded-full font-semibold hover:shadow-lg"
-                >Mulai Jualan</Link
+                >Commencer à vendre</Link
             >
         </div>
     </div>

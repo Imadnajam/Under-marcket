@@ -28,7 +28,7 @@
             <form @submit.prevent="submitForm()">
                 <div class="mb-20">
                     <div class="mb-6">
-                        <InputLabel for="categories" value="Nama Category" />
+                        <InputLabel for="categories" value="Nom Category" />
 
                         <TextInput
                             id="categories"
@@ -42,7 +42,7 @@
                         <!-- <InputError class="mt-2" :message="errors.categories" /> -->
                     </div>
                     <div class="mb-6">
-                        <InputLabel for="image" value="Gambar" />
+                        <InputLabel for="image" value="Image" />
 
                         <input
                             id="image"
@@ -68,7 +68,7 @@
                         <!-- <InputError class="mt-2" :message="errors.file" /> -->
                     </div>
                     <div class="mb-6">
-                        <InputLabel for="description" value="Deskripsi" />
+                        <InputLabel for="description" value="Description" />
 
                         <TextareaInput
                             id="description"

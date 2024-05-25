@@ -16,11 +16,11 @@ defineProps({
 </script>
 
 <template>
-    <Head title="Pengaturan" />
+    <Head title="Arrangement" />
 
     <AdminLayout>
         <template #header>
-            <h1 class="text-[2rem] font-bold">Pengaturan Profil</h1>
+            <h1 class="text-[2rem] font-bold">Arrangement Profil</h1>
         </template>
 
         <div class="py-12">

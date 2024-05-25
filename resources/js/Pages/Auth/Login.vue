@@ -42,7 +42,7 @@ const submit = () => {
                 <h1
                     class="text-[28px] md:text-[32px] leading-normal font-medium text-center mb-10"
                 >
-                    Masuk ke akunmu
+                    Login
                 </h1>
                 <form @submit.prevent="submit">
                     <div>
@@ -57,7 +57,7 @@ const submit = () => {
                             type="email"
                             class="mt-1 block w-full"
                             v-model="form.email"
-                            placeholder="Masukkan Email"
+                            placeholder=" Email"
                             required
                             autofocus
                             autocomplete="username"
@@ -78,7 +78,7 @@ const submit = () => {
                             type="password"
                             class="mt-1 block w-full"
                             v-model="form.password"
-                            placeholder="Masukkan Password"
+                            placeholder=" Password"
                             required
                             autocomplete="current-password"
                         />
@@ -97,11 +97,11 @@ const submit = () => {
                         Masuk
                     </button>
                     <p class="mt-3 text-sm">
-                        Belum memiliki akun?
+                        Vous n'avez pas encore de compte? 
                         <Link
                             href="/register"
                             class="text-primary font-medium hover:underline"
-                            >Buat Akun</Link
+                            >Créer un compte</Link
                         >
                     </p>
                 </form>
@@ -111,13 +111,13 @@ const submit = () => {
                     <img src="/assets/auth-banner.png" alt="" />
                     <div class="content text-center text-white font-medium">
                         <h1 class="text-3xl px-4 mb-8">
-                            Menemukan Produk Digital Terbaik untuk Masa Depan
-                            Anda
+                            Trouver les meilleurs produits numériques pour l'avenir
+                            Toi
                         </h1>
                         <!-- <p>
-                            Bergabunglah dengan lebih dari 147.388 kreator yang
-                            telah menghasilkan lebih dari Rp. 980.450.000 pada
-                            Digi yang menjual produk digital dan keanggotaan.
+                           Rejoignez plus de 147 388 créateurs qui
+                            a gagné plus de Rp. 980 450 000 sur
+                            Digi qui vend des produits numériques et des abonnements.
                         </p>
                         <div
                             class="flex justify-between font-normal mt-10 text-xs"
@@ -125,12 +125,12 @@ const submit = () => {
                             <div
                                 class="border-2 border-white py-2 px-4 rounded-full"
                             >
-                                100% Produk asli langsung dari Kreator
+                              Produit 100% original directement du créateur
                             </div>
                             <div
                                 class="border-2 border-white py-2 px-4 rounded-full"
                             >
-                                Bisa Ditambah nih fiturrrr
+                                Vous pouvez ajouter cette fonctionnalité
                             </div>
                         </div> -->
                     </div>

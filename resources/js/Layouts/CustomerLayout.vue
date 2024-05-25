@@ -65,8 +65,8 @@ import { Link } from "@inertiajs/vue3";
 const links = ref([
     { route: "home", image: "/assets/icon/home.svg", label: "Home" },
     { route: "pricing", image: "/assets/icon/laporan.svg", label: "Pricing" },
-    { route: "discover", image: "/assets/icon/shop.svg", label: "Discover" },
-    { route: "cart", image: "/assets/icon/cart.svg", label: "Cart" },
+    { route: "discover", image: "/assets/icon/shop.svg", label: "Découvrir" },
+    { route: "cart", image: "/assets/icon/cart.svg", label: "Panier" },
 ]);
 
 const navigationStyle = ref(false);

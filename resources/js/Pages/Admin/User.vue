@@ -6,11 +6,11 @@
             <h1 class="text-[2rem] font-bold">User</h1>
         </template>
         <div class="py-10">
-            <h1 class="font-medium mb-5">Semua User</h1>
+            <h1 class="font-medium mb-5">Tous les utilisateurs</h1>
             <table class="table w-full">
                 <tr>
                     <th class="text-sm font-medium text-start p-4">No</th>
-                    <th class="text-sm font-medium text-start p-4">Nama</th>
+                    <th class="text-sm font-medium text-start p-4">Nom</th>
                     <th class="text-sm font-medium text-start p-4">Email</th>
                     <th class="text-sm font-medium text-start p-4">Role</th>
                     <th class="text-sm font-medium text-center p-4">Action</th>
