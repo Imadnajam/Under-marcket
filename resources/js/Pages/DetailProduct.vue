@@ -43,7 +43,7 @@
                             <div class="text-center">
                                 <Link :href="route('addToCart', product.id)"
                                     class="block cursor-pointer mx-auto bg-primary w-max text-white py-2.5 px-14 border border-primary rounded-full font-semibold hover:shadow-lg">
-                                + Keranjang</Link>
+                                + Panier</Link>
                             </div>
                         </div>
                     </div>
@@ -53,21 +53,21 @@
                 <div class="grid grid-cols-5 gap-7 my-10">
                     <div class="col-span-3">
                         <h1 class="text-2xl font-medium mb-[.62rem]">
-                            Deskripsi Produk
+                           Description du produit
                         </h1>
                         <div class="contents" v-html="product.description"></div>
                     </div>
                     <div class="col-span-2">
                         <h1 class="text-2xl font-medium mb-[.62rem]">
-                            Informasi Produk
+                            Information produit
                         </h1>
                         <div class="border_table">
                             <table>
                                 <tr>
                                     <td>
-                                        Anda akan mendapatkan publikasi
-                                        elektronik dalam format PDF. Bukan
-                                        produk fisik.
+                                       Vous recevrez des publications
+                                        électroniquement au format PDF. Non
+                                        produit physique.
                                     </td>
                                 </tr>
                                 <!-- <tr>
@@ -82,13 +82,13 @@
                                 </tr> -->
                                 <tr>
                                     <td class="flex justify-between items-center">
-                                        <p class="font-medium">Tipe produk</p>
+                                        <p class="font-medium">Type de produit</p>
                                         <p>{{ product.type }}</p>
                                     </td>
                                 </tr>
                                 <tr>
                                     <td class="flex justify-between items-center">
-                                        <p class="font-medium">Ukuran</p>
+                                        <p class="font-medium">Taille</p>
                                         <p>
                                             {{
                                                 (

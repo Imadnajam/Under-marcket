@@ -8,12 +8,12 @@
                 v-if="cart.length < 1"
             >
                 <h1 class="text-2xl xl:text-[30px] mb-4 font-semibold">
-                    Keranjang Anda<br />Masih Kosong
+                   Votre panier<br />Toujours vide
                 </h1>
                 <Link
                     :href="route('discover')"
                     class="block cursor-pointer mx-auto bg-white w-max text-black py-2.5 px-14 border border-gray-700 rounded-full font-semibold hover:shadow-lg"
-                    >Ayo Belanja</Link
+                    >Allons faire du shopping</Link
                 >
             </div>
             <div class="pt-24 px-12 pb-[10%]" v-else>
@@ -23,7 +23,7 @@
                         <Link
                             :href="route('discover')"
                             class="block cursor-pointer mx-auto bg-white w-max text-black py-2.5 px-14 border border-gray-700 rounded-full font-semibold hover:shadow-lg"
-                            >Lanjut Belanja</Link
+                            >Continuer vos achats</Link
                         >
                     </div>
                 </div>
@@ -69,7 +69,7 @@
                                             class="block cursor-pointer mx-auto bg-red-500 w-max text-white py-2 mt-8 ms-auto px-8 border border-primary rounded-full font-semibold hover:shadow-lg"
                                             @click="destroy(product.product.id)"
                                         >
-                                            Hapus
+                                            Annuler
                                         </button>
                                     </div>
                                 </div>
@@ -93,18 +93,18 @@
                     <div class="xl:col-span-2">
                         <div class="px-4 pt-4 pb-8 rounded-3xl shadow-md">
                             <h2 class="text-lg font-semibold">
-                                Informasi Kontak
+                               Coordonnées
                             </h2>
                             <p class="font-medium">Email</p>
                             <div class="flex flex-col items-center px-8 mt-9">
                                 <p class="text-center font-medium">
-                                    Masih bingung metode pembayarannya seperti
-                                    apa
+                                  Toujours confus au sujet des méthodes de paiement comme
+                                    Quoi
                                 </p>
                                 <button
                                     class="w-full py-3 mt-9 rounded-full font-semibold text-white bg-primary hover:bg-primary-hover hover:shadow-xl focus:bg-primary-active active:bg-primary-active focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 transition ease-in-out duration-150"
                                 >
-                                    Bayar
+                                  Payer
                                 </button>
                             </div>
                         </div>
@@ -134,7 +134,7 @@ for (const product of cart.value) {
 
 // Method untuk menghapus item dari keranjang
 const destroy = (id) => {
-    if (confirm("hapus dari cart?")) {
+    if (confirm("retirer du panier?")) {
         Inertia.delete(route("removeToCart", id));
     }
 

@@ -17,9 +17,9 @@ class CategorySeeder extends Seeder
     {
         DB::table('categories')->insert([
             'id' => "1",
-            'name' => "Desain",
+            'name' => "Conception",
             'image' => "kategori-desain.png",
-            'description' => "Produk digital yang didesain untuk memenuhi kebutuhan kreativitas dan desain pengguna.",
+            'description' => "Produits numériques conçus pour répondre aux besoins de créativité et de conception des utilisateurs.",
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
         ]);
@@ -27,23 +27,23 @@ class CategorySeeder extends Seeder
             'id' => "2",
             'name' => "Film",
             'image' => "kategori-film.png",
-            'description' => "Produksi audiovisual yang dirancang untuk diputar di bioskop, stasiun televisi, atau platform streaming online.",
+            'description' => "Productions audiovisuelles conçues pour être projetées dans les cinémas, les chaînes de télévision ou les plateformes de streaming en ligne.",
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
         ]);
         DB::table('categories')->insert([
             'id' => "3",
-            'name' => "Musik",
+            'name' => "Musique",
             'image' => "kategori-musik.png",
-            'description' => "Produksi audio yang mencakup berbagai jenis musik seperti pop, rock, jazz, klasik, hip-hop, dan berbagai genre musik lainnya.",
+            'description' => "Production audio couvrant divers types de musique tels que la pop, le rock, le jazz, le classique, le hip-hop et divers autres genres musicaux.",
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
         ]);
         DB::table('categories')->insert([
             'id' => "4",
-            'name' => "Pendidikan",
+            'name' => "Éducation",
             'image' => "kategori-pendidikan.png",
-            'description' => "Produk atau layanan yang dirancang untuk membantu pembelajaran, seperti buku, kursus online, dan lainnya.",
+            'description' => "Produits ou services conçus pour faciliter l'apprentissage, tels que des livres, des cours en ligne, etc.",
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
         ]);
@@ -51,15 +51,15 @@ class CategorySeeder extends Seeder
             'id' => "5",
             'name' => "Software Development",
             'image' => "kategori-software.png",
-            'description' => "Produk dan layanan yang dirancang untuk membantu pengembangan perangkat lunak.",
+            'description' => "Produits et services conçus pour faciliter le développement de logiciels.",
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
         ]);
         DB::table('categories')->insert([
             'id' => "6",
-            'name' => "Tulisan dan Publikasi",
+            'name' => "Écrits et publications",
             'image' => "kategori-tulisan.png",
-            'description' => "Produk atau layanan yang berfokus pada tulisan dan penerbitan karya tulis, baik dalam bentuk digital maupun fisik.",
+            'description' => "Produits ou services axés sur l'écriture et la publication d'œuvres écrites, tant sous forme numérique que physique.",
             'created_at' => Carbon::now(),
             'updated_at' => Carbon::now(),
         ]);
