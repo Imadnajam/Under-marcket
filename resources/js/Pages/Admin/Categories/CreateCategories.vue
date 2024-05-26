@@ -113,7 +113,7 @@ const form = useForm({
     image: null,
 });
 
-const label = ref("Pilih Gambar");
+const label = ref("Sélectionnez une image");
 
 const onFileChange = (event) => {
     const file = event.target.files[0];
@@ -123,7 +123,7 @@ const onFileChange = (event) => {
         form.image = file.name;
         console.log(file);
     } else {
-        label.value = "Pilih Gambar";
+        label.value = "Sélectionnez une image";
     }
 };
 

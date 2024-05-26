@@ -94,7 +94,7 @@ const submit = () => {
                         :class="{ 'opacity-25': form.processing }"
                         :disabled="form.processing"
                     >
-                        Masuk
+                        Entrer
                     </button>
                     <p class="mt-3 text-sm">
                         Vous n'avez pas encore de compte? 

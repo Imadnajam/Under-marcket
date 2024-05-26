@@ -54,7 +54,7 @@ const users = ref(props.users);
 
 // Method untuk menghapus item dari keranjang
 const destroy = (id) => {
-    if(confirm("Hapus User?")){
+    if(confirm("Supprimer l'utilisateur?")){
         Inertia.delete(route('admin.deleteUser',id))
     }
 
