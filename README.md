@@ -5,6 +5,7 @@
 </p>
 
 
+
 Diger is an e-commerce platform that enables creators, writers, artists and developers to sell their digital products directly to fans and customers. The system is developed using Laravel, VueJS, InertiaJS and Tailwind CSS. It is deployed on AWS using Ubuntu and Nginx, along with other necessary tools.
 
 To see our application please visit the following link [Diger](https://diger.my.id/)
